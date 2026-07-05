@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Menu - Shakir</title>
+        <link rel="stylesheet" href="Style.CSS/First.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header>
-        <img src="media/logo.jpg" width="300" alt="Restaurant Logo">
-        <h1>HOI-CHOI</h1>
+        <img class="logo" src="logo.jpg" width="300" alt="Restaurant Logo">
+        <h1>KHAI-DAI</h1>
 
-        <p>
+        <p id="bio">
             <em>Good Food, Good Life</em>
         </p>
     </header>
@@ -20,49 +24,47 @@
     <main>
 
         <section>
-            <h2>Appetizers</h2>
+            <h2 >Appetizers</h2>
 
-            <ul>
+            <ul class="menu">
                 <li>Chicken Soup - <del>300</del> 250 TK</li>
                 <li>Garlic Bread - <del>250</del> 200 TK</li>
                 <li>French Fries - <del>200</del> 180 TK</li>
             </ul>
         </section>
 
-        <hr>
-
+        
         <section>
-            <h2>Pizza</h2>
+            <h2 >Pizza</h2>
 
-            <ul>
+            <ul class="menu">
                 <li>Chicken Pizza - <del>550</del> 500 TK</li>
                 <li>BBQ Pizza - <del>450</del> 400 TK</li>
                 <li>Mini Pizza - <del>350</del> 300 TK</li>
             </ul>
         </section>
 
-        <hr>
+    
 
         <section>
-            <h2>Drinks</h2>
+            <h2 >Drinks</h2>
 
-            <ul>
+            <ul class="menu">
                 <li>Coffee -<del>120</del> 100 TK</li>
                 <li>Coke - <del>100</del> 80 TK</li>
                 <li>Lemon Juice - <del>100</del> 90 TK</li>
             </ul>
         </section>
 
-        <hr>
-
         <article>
-            <h3>Today's Special Offer</h3>
+
+            <h3 id="offer">Today's Special Offer</h3>
 
             <strong>Special Offer: 20% OFF</strong>
 
             <br>
 
-            <em>Limited Time</em>
+            <em>Limited Time Offer</em>
 
             <br>
 
@@ -77,11 +79,10 @@
             <p>10:00 AM - 10:00 PM</p>
         </aside>
 
-        <div>
+        <div class=" order-section">
 
             <h2>Order Form</h2>
-
-            <form>
+            <form >
 
                 <label>Name</label>
                 <input>
@@ -113,7 +114,7 @@
 
                 <br><br>
 
-                <button>ORDER NOW</button>
+                <button >ORDER NOW </button>
 
             </form>
 
